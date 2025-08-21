@@ -43,7 +43,7 @@
 
 	  <tr onmouseout="ld_stop()" onmouseover="ld_start()">
             <td style="padding:0px;width:25%;vertical-align:middle">
-              <img src="image/dreamswapv.png" width="320" height="100" style="border-style: none">
+              <img src="image/dreamswapv.png" width="320" height="160" style="border-style: none">
             </td>
             <td style="padding:10px;width:75%;vertical-align:middle">
               <a href="https://victor-thu.github.io/DreamSwapV/">
@@ -63,14 +63,14 @@
 				<br>^ Corresponding authors  ` Project leader<br>
 		    <em> Arxiv Preprint</em>, 2025
               <!-- <em>arXiv</em>, 2023 (under review) -->
-              <p>With the rapid progress of video generation, demand for customized video editing is surging, where subject swapping constitutes a key component yet remains under-explored. Prevailing swapping approaches either specialize in narrow domains—such as human-body animation or hand-object interaction—or rely on some indirect editing paradigm or ambiguous text prompts that compromise final fidelity. In this paper, we propose DreamSwapV, a mask-guided, subject-agnostic, end-to-end framework that swaps any subject in any video for customization with a user-specified mask and reference image. To inject fine-grained guidance, we introduce multiple conditions and a dedicated condition fusion module that integrates them efficiently. In addition, an adaptive mask strategy is designed to accommodate subjects of varying scales and attributes, further improving interactions between the swapped subject and its surrounding context. Through our elaborate two-phase dataset construction and training scheme, our DreamSwapV outperforms existing methods, as validated by comprehensive experiments on VBench indicators and our first introduced DreamSwapV-Benchmark.
+              <p>We present DreamSwapV, a mask-guided, subject-agnostic framework for video subject swapping with reference images. Leveraging multi-condition fusion and adaptive masks, it achieves high-fidelity results, outperforming prior methods on VBench and our new DreamSwapV-Benchmark.
               </p>
           </td>
 	 </tr> 
 
 		<tr onmouseout="ld_stop()" onmouseover="ld_start()">
             <td style="padding:0px;width:25%;vertical-align:middle">
-              <img src="image/mvreward.png" width="320" height="100" style="border-style: none">
+              <img src="image/mvreward.png" width="320" height="200" style="border-style: none">
             </td>
             <td style="padding:10px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2412.06614">
@@ -87,7 +87,7 @@
 				<br>* Equal contribution  ^ Corresponding authors<br>
 		    <em> The Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2025
               <!-- <em>arXiv</em>, 2023 (under review) -->
-              <p>Recent years have witnessed remarkable progress in 3D content generation. However, corresponding evaluation methods struggle to keep pace. Automatic approaches have proven challenging to align with human preferences, and the mixed comparison of text- and image-driven methods often leads to unfair evaluations. In this paper, we present a comprehensive framework to better align and evaluate multi-view diffusion models with human preferences. To begin with, we first collect and filter a standardized image prompt set from DALL⋅E and Objaverse, which we then use to generate multi-view assets with several multi-view diffusion models. Through a systematic ranking pipeline on these assets, we obtain a human annotation dataset with 16k expert pairwise comparisons and train a reward model, coined MVReward, to effectively encode human preferences. With MVReward, image-driven 3D methods can be evaluated against each other in a more fair and transparent manner. Building on this, we further propose Multi-View Preference Learning (MVP), a plug-and-play multi-view diffusion tuning strategy. Extensive experiments demonstrate that MVReward can serve as a reliable metric and MVP consistently enhances the alignment of multi-view diffusion models with human preferences.
+              <p>We propose a comprehensive framework for evaluating multi-view diffusion models by aligning them with human preferences. We introduce MVReward, a reward model trained on 16k expert pairwise comparisons, enabling fair evaluation of image-driven 3D methods, and MVP, a tuning strategy that further improves alignment. Experiments show MVReward is a reliable metric and MVP consistently enhances model performance.
               </p>
           </td>
 	 </tr> 
@@ -95,7 +95,7 @@
 
 		<tr onmouseout="ld_stop()" onmouseover="ld_start()">
             <td style="padding:0px;width:25%;vertical-align:middle">
-              <img src="image/mymv.png" width="320" height="100" style="border-style: none">
+              <img src="image/mymv.png" width="320" height="120" style="border-style: none">
             </td>
             <td style="padding:10px;width:75%;vertical-align:middle">
               <a href="https://arxiv.org/abs/2508.07700">
@@ -110,7 +110,7 @@
 				<br>^ Corresponding authors<br>
 		    <em> Arxiv Preprint</em>, 2025
               <!-- <em>arXiv</em>, 2023 (under review) -->
-              <p>As 3D generation techniques continue to flourish, the demand for generating personalized content is rapidly rising. Users increasingly seek to apply various editing methods to polish generated 3D content, aiming to enhance its color, style, and lighting without compromising the underlying geometry. However, most existing editing tools focus on the 2D domain, and directly feeding their results into 3D generation methods (like multi-view diffusion models) will introduce information loss, degrading the quality of the final 3D assets. In this paper, we propose a tuning-free, plug-and-play scheme that aligns edited assets with their original geometry in a single inference run. Central to our approach is a geometry preservation module that guides the edited multi-view generation with original input normal latents. Besides, an injection switcher is proposed to deliberately control the supervision extent of the original normals, ensuring the alignment between the edited color and normal views. Extensive experiments show that our method consistently improves both the multi-view consistency and mesh quality of edited 3D assets, across multiple combinations of multi-view diffusion models and editing methods.
+              <p>We introduce Make Your MoVe (MyMV), a tuning-free, plug-and-play scheme for 3D content editing that preserves geometry while applying edits to color, style, and lighting. Our approach employs a geometry preservation module with an injection switcher to align edited assets with original normals in a single inference run. Experiments demonstrate consistent improvements in multi-view consistency and mesh quality across diverse models and editing methods.
               </p>
           </td>
 	 </tr>
