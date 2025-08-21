@@ -1,9 +1,9 @@
 <!DYPE HTML>
 <html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-  <title>Ziyi Li</title>
+  <title>Weitao Wang</title>
   
-  <meta name="author" content="Ziyi Li">
+  <meta name="author" content="Weitao Wang">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   
   <link rel="stylesheet" type="text/css" href="stylesheet.css">
@@ -17,73 +17,107 @@
           <tr style="padding:0px">
             <td style="padding:2.5%;width:63%;vertical-align:middle">
               <p style="text-align:center">
-                <name> Ziyi Li </name>
+                <name> Weitao Wang </name>
               </p>
-              <p>I am a master student working on open-world representation learning and image super-resolution at <a href="https://mediabrain.sjtu.edu.cn/">Shanghai Jiao Tong University</a>.
-		      I received my bachelor degree from <a href='https://www.sjtu.edu.cn/'> Shanghai Jiao Tong University (SJTU)</a> in June 2021. 
+              <p>I am a 2nd-Year master student in Artificial Intelligence at Future Media Lab of <a href='https://www.tsinghua.edu.cn/'> Tsinghua University, under the guidance of <a href='https://www.sigs.tsinghua.edu.cn/whq/'> Prof. Haoqian Wang.</a>.
+		      I received my bachelor degree in Computer Science and Technology at <a href='https://www.scu.edu.cn/'> Sichuan University</a> in June 2023. 
               </p>
 	      <p>
-		      My current research interest is in open-world representation learning.
+		      My current research interest lies in 3D / video generation and editing, particularly focusing on human-related tasks like human preference alignment (via post-training) and personalized AI generated content customization.
               </p>      
 		    
               <p style="text-align:center">
-                <a href="599lzy@sjtu.edu.cn">Email</a> &nbsp/&nbsp
-                <a href="https://github.com/Lipurple">Github</a>
+                <a href="wangwt23@mails.tsinghua.edu.cn">Email</a> &nbsp/&nbsp
+                <a href="https://github.com/victor-thu">Github</a>
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
-              <a href="image/lzy.jpg"><img style="width:100%;max-width:100%" alt="profile photo" src="image/liziyi.jpg" class="hoverZoomLink"></a>
+              <a href="image/full.png"><img style="width:100%;max-width:100%" alt="profile photo" src="image/head.png" class="hoverZoomLink"></a>
             </td>
           </tr>
 	</tbody></table>
 	<br />
 		
         <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-          <heading><b></bold>Research</b></heading>
+          <heading><b></bold>Publications</b></heading>
 
 	  <tr onmouseout="ld_stop()" onmouseover="ld_start()">
             <td style="padding:0px;width:25%;vertical-align:middle">
-              <img src="image/grounded.png" width="320" height="100" style="border-style: none">
+              <img src="image/dreamswapv.png" width="320" height="100" style="border-style: none">
             </td>
             <td style="padding:10px;width:75%;vertical-align:middle">
-              <a href="https://lipurple.github.io/Grounded_Diffusion/">
-                <papertitle>Guiding Text-to-Image Diffusion Model Towards Grounded Generation</papertitle>
+              <a href="https://victor-thu.github.io/DreamSwapV/">
+                <papertitle>DreamSwapV: Mask-guided Subject Swapping for Any Customized Video Editing</papertitle>
               </a>
               <br>
-              <strong>Ziyi Li* </strong>,
-              <a>Qinye Zhou* </a>,
-              <a href="https://cmic.sjtu.edu.cn/CN/show.aspx?info_lb=35&info_id=1341&flag=35">Xiaoyun Zhang </a>,
-              <a href="https://mediabrain.sjtu.edu.cn/yazhang/">Ya Zhang </a>,
-              <a href="https://mediabrain.sjtu.edu.cn/members/">Yanfeng Wang </a>,
-              <a href="https://weidixie.github.io/">Weidi Xie </a>
+              <strong>Weitao Wang </strong>,
+              <a>Zichen Wang </a>,
+              <a>Hongdeng Shen </a>,
+              <a>Yulei Lu </a>,
+              <a>Xirui Fan </a>,
+              <a>Suhui Wu </a>,
+				<a>Jun Zhang^ </a>,
+				<a>Haoqian Wang^ </a>,
+				<a>Hao Zhang` </a>
               <br>
-		    <em> International Conference on Computer Vision (ICCV)</em>, 2023
+				<br>^ Corresponding authors  ` Project leader<br>
+		    <em> Arxiv Preprint</em>, 2025
               <!-- <em>arXiv</em>, 2023 (under review) -->
-              <p>we propose to augment a pre-trained text-to-image diffusion model with the ability of open-vocabulary objects grounding, i.e., simultaneously generating images and segmentation masks for the corresponding visual entities described in the text prompt.
+              <p>With the rapid progress of video generation, demand for customized video editing is surging, where subject swapping constitutes a key component yet remains under-explored. Prevailing swapping approaches either specialize in narrow domains—such as human-body animation or hand-object interaction—or rely on some indirect editing paradigm or ambiguous text prompts that compromise final fidelity. In this paper, we propose DreamSwapV, a mask-guided, subject-agnostic, end-to-end framework that swaps any subject in any video for customization with a user-specified mask and reference image. To inject fine-grained guidance, we introduce multiple conditions and a dedicated condition fusion module that integrates them efficiently. In addition, an adaptive mask strategy is designed to accommodate subjects of varying scales and attributes, further improving interactions between the swapped subject and its surrounding context. Through our elaborate two-phase dataset construction and training scheme, our DreamSwapV outperforms existing methods, as validated by comprehensive experiments on VBench indicators and our first introduced DreamSwapV-Benchmark.
               </p>
           </td>
 	 </tr> 
 
-	  <tr onmouseout="ld_stop()" onmouseover="ld_start()">
-            <td style="padding:0px;width:40%;vertical-align:middle">
-              <img src="image/ARIS.png" width="320" height="160" style="border-style: none">
+		<tr onmouseout="ld_stop()" onmouseover="ld_start()">
+            <td style="padding:0px;width:25%;vertical-align:middle">
+              <img src="image/mvreward.png" width="320" height="100" style="border-style: none">
             </td>
-            <td style="padding:10px;width:60%;vertical-align:middle">
-              <a href="https://lipurple.github.io/ARIS_Webpage//">
-                <papertitle>A Simple Plugin for Transforming Images to Arbitrary Scales</papertitle>
+            <td style="padding:10px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2412.06614">
+                <papertitle>MVReward: Better Aligning and Evaluating Multi-View Diffusion Models with Human Preferences</papertitle>
               </a>
               <br>
-              <a>Qinye Zhou* </a>,
-              <strong>Ziyi Li* </strong>,
-              <a href="https://weidixie.github.io/">Weidi Xie </a>,
-              <a href="https://cmic.sjtu.edu.cn/CN/show.aspx?info_lb=35&info_id=1341&flag=35">Xiaoyun Zhang </a>,
-	      <a href="https://mediabrain.sjtu.edu.cn/members/">Yanfeng Wang </a>,
-	      <a href="https://mediabrain.sjtu.edu.cn/yazhang/">Ya Zhang</a>
+              <strong>Weitao Wang* </strong>,
+              <a>Haoran Xu* </a>,
+              <a>Yuxiao Yang </a>,
+              <a>Zhifang Liu </a>,
+              <a>Jun Meng^ </a>,
+				<a>Haoqian Wang^ </a>
               <br>
-			<em> British Machine Vision Conference (BMVC)</em>, 2022
-              <p>we propose to develop a general <strong>plugin</strong> that can be inserted into existing super-resolution models, conveniently augmenting their ability towards <strong>A</strong>rbitrary <strong>R</strong>esolution <strong>I</strong>mage <strong>S</strong>caling, thus termed <strong>ARIS</strong>.</p>
-            </td>
+				<br>* Equal contribution  ^ Corresponding authors<br>
+		    <em> The Association for the Advancement of Artificial Intelligence (AAAI)</em>, 2025
+              <!-- <em>arXiv</em>, 2023 (under review) -->
+              <p>Recent years have witnessed remarkable progress in 3D content generation. However, corresponding evaluation methods struggle to keep pace. Automatic approaches have proven challenging to align with human preferences, and the mixed comparison of text- and image-driven methods often leads to unfair evaluations. In this paper, we present a comprehensive framework to better align and evaluate multi-view diffusion models with human preferences. To begin with, we first collect and filter a standardized image prompt set from DALL⋅E and Objaverse, which we then use to generate multi-view assets with several multi-view diffusion models. Through a systematic ranking pipeline on these assets, we obtain a human annotation dataset with 16k expert pairwise comparisons and train a reward model, coined MVReward, to effectively encode human preferences. With MVReward, image-driven 3D methods can be evaluated against each other in a more fair and transparent manner. Building on this, we further propose Multi-View Preference Learning (MVP), a plug-and-play multi-view diffusion tuning strategy. Extensive experiments demonstrate that MVReward can serve as a reliable metric and MVP consistently enhances the alignment of multi-view diffusion models with human preferences.
+              </p>
+          </td>
 	 </tr> 
+
+
+		<tr onmouseout="ld_stop()" onmouseover="ld_start()">
+            <td style="padding:0px;width:25%;vertical-align:middle">
+              <img src="image/mymv.png" width="320" height="100" style="border-style: none">
+            </td>
+            <td style="padding:10px;width:75%;vertical-align:middle">
+              <a href="https://arxiv.org/abs/2508.07700">
+                <papertitle>Make Your MoVe: Make Your 3D Contents by Adapting Multi-View Diffusion Models to External Editing</papertitle>
+              </a>
+              <br>
+              <strong>Weitao Wang </strong>,
+              <a>Haoran Xu </a>,
+              <a>Jun Meng^ </a>,
+				<a>Haoqian Wang^ </a>
+              <br>
+				<br>^ Corresponding authors<br>
+		    <em> Arxiv Preprint</em>, 2025
+              <!-- <em>arXiv</em>, 2023 (under review) -->
+              <p>As 3D generation techniques continue to flourish, the demand for generating personalized content is rapidly rising. Users increasingly seek to apply various editing methods to polish generated 3D content, aiming to enhance its color, style, and lighting without compromising the underlying geometry. However, most existing editing tools focus on the 2D domain, and directly feeding their results into 3D generation methods (like multi-view diffusion models) will introduce information loss, degrading the quality of the final 3D assets. In this paper, we propose a tuning-free, plug-and-play scheme that aligns edited assets with their original geometry in a single inference run. Central to our approach is a geometry preservation module that guides the edited multi-view generation with original input normal latents. Besides, an injection switcher is proposed to deliberately control the supervision extent of the original normals, ensuring the alignment between the edited color and normal views. Extensive experiments show that our method consistently improves both the multi-view consistency and mesh quality of edited 3D assets, across multiple combinations of multi-view diffusion models and editing methods.
+              </p>
+          </td>
+	 </tr>
+
+		
+
+	  
 
         </tbody></table>
 
